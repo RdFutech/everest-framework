@@ -5,7 +5,7 @@ ryml:
   options: ["CMAKE_POSITION_INDEPENDENT_CODE ON"]
 libwebsockets:
   git: https://github.com/warmcat/libwebsockets.git
-  git_tag: v4.3.2
+  git_tag: v4.5.8
   options:
     - CMAKE_POLICY_DEFAULT_CMP0077 NEW
     - LWS_ROLE_RAW_FILE OFF
